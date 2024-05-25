@@ -1,6 +1,6 @@
 # Landing Page Project
 
-This is a landing page project for [Your Project Name]. It aims to provide a visually appealing and informative landing page for visitors.
+This is a landing page project for [The Odin Projecet]. It aims to provide a visually appealing and informative landing page for visitors.
 
 ## Table of Contents
 
