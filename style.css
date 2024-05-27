@@ -5,6 +5,9 @@
 body {
   font-family: Roboto;
   margin: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
 h2 {
   color: #f9faf8;
@@ -41,7 +44,7 @@ a:hover {
   margin-left: 160px;
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 180px;
   margin-bottom: 100px;
   margin-top: 100px;
 }
@@ -68,4 +71,27 @@ a:hover {
   border-radius: 8px;
   border: none;
   cursor: pointer;
+}
+.hero img {
+  border-radius: 10px;
+}
+/* Feature section */
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+.features p {
+  text-wrap: balance;
+  width: 200px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.feature img {
+  border-radius: 10px;
 }
