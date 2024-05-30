@@ -7,7 +7,7 @@ body {
   margin: 0px;
   display: flex;
   flex-direction: column;
-  gap: 200px;
+  gap: 100px;
 }
 .header h2 {
   color: #f9faf8;
@@ -77,6 +77,9 @@ a:hover {
   border-radius: 10px;
 }
 /* Feature section */
+.section-2 h1 {
+  margin-bottom: 80px;
+}
 .features {
   display: flex;
   justify-content: center;
@@ -112,4 +115,39 @@ a:hover {
   font-size: 20px;
   font-style: normal;
   text-align: right;
+}
+
+/* Call to action section */
+.signup {
+  display: flex;
+  background-color: #3882f6;
+  margin: auto;
+  border-radius: 14px;
+  padding: 50px 70px;
+  color: #f9faf8;
+  width: 700px;
+}
+.sign-item {
+  flex: 1;
+}
+
+.signup button {
+  background-color: #3882f6;
+  border-color: #fff;
+  border: 2px solid #fff;
+  color: #f9faf8;
+  font-size: 16px;
+  height: 50px;
+  margin: auto;
+  padding: 0px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* footer section */
+.footer {
+  background-color: #1f2937;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
 }
